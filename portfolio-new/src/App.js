@@ -1,9 +1,22 @@
 import styled from 'styled-components'
+import Sidebar from './Components/Sidebar';
 
 function App() {
   return (
-    <h1>Styled Components </h1>
+    <div className="App">
+      <Sidebar/>
+      <MainContentStyled>
+
+      </MainContentStyled>
+
+    </div>
   );
 }
+const MainContentStyled = styled.main`
+  position: relative;
+  margin-left: 16.3rem;
+  min-height: 100vh;
+  background-color: red;
+`
 
 export default App;
