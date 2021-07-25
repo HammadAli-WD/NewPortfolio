@@ -1,19 +1,21 @@
 import React from 'react'
-import styled from 'styled-components'
-import Navigation from './Navigation'
+import styled from 'styled-components';
+import Navigation from './Navigation';
 
-export default function Sidebar() {
+function Sidebar() {
     return (
-        <SidebarStyled>
+        <SidebarStyled >
             <Navigation />
         </SidebarStyled>
     )
 }
 
 const SidebarStyled = styled.div`
-width: 16.3rem;
-height: 100vh;
-position: fixed;
-background-color: var(--sidebar-dark-color);
+    width: 16.3rem;
+    position: fixed;
+    height: 100vh;
+    background-color: var(--sidebar-dark-color);
+    
+`;
 
-`
+export default Sidebar;
