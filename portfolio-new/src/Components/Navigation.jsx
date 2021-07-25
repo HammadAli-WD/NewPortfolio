@@ -10,7 +10,7 @@ function Navigation() {
             </div>
             <ul className="nav-items">
                 <li className="nav-items">
-                    <Link to="/home" activeClassName="active-class" exact>Home</Link>
+                    <Link to="/" activeClassName="active-class" exact>Home</Link>
                 </li>
                 <li className="nav-items">
                     <Link to="/home" activeClassName="active-class" exact>About</Link>
