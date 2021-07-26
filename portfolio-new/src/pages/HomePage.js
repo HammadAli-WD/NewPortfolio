@@ -10,6 +10,19 @@ const steps = [
   'Hello 👋', 1000,
   'I am Hammad Ali: WEB-DEVELOPER 🧑‍💻', 3000,    
 ];
+const Reactplayer = () => {
+return (
+    <div className='player-wrapper'>
+        <ReactPlayer
+        className='react-player'
+        url='https://youtu.be/9bAryK8I2uo'
+        width='100%'
+        height='100%'
+        controls={true}
+        />
+    </div>
+ )
+}
 function HomePage() {
     return (
         <HomePageStyled>
@@ -22,17 +35,13 @@ function HomePage() {
                     A short introduction about myself is presented in the below video. <br></br>
                     For detailed Information, please visit my whole portfolio.
                 </p>                
-                <div className="videoplayer">
-                    <ReactPlayer
-                    url='https://youtu.be/9bAryK8I2uo'
-                    controls
-                    onReady={() => console.log('onReady callback')}
-                    onStart={() => console.log('onStart callback')}
-                    onPause={() => console.log('onPause callback')}
-                    onEnded={() => console.log('onEnded callback')}
-                    onError={() => console.log('onError callback')}
-                />
+                
+                 <div className="film__container">
+                    <div className="film__box">
+                        <Reactplayer />
+                    </div>
                 </div>
+            
                 
                 <div className="icons">
                     <a href="https://codepen.io/pen/" className="icon i-facebook">
@@ -70,12 +79,46 @@ const HomePageStyled = styled.header`
         .caca{
             color: #5F4687;
             font-size: larger;
+            margin-top: 1rem;
         }
-        .videoplayer{
+        .react-player video {
+            position: relative;
+            left: 0;
+            top: 0;            
+            transform: none;
+        }
+        .film__container {
+                //width: 100%;
+                //height: 80vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0%;
+                padding: 0%;
+            }
+
+            .film__box {
+                //height: 500px;
+                width: 100%;                
+                max-width: 800px;
+            }
+
+            .player-wrapper {
+            position: relative;
+            padding-top: 45.25%
+            
+            }
+
+            .react-player {
+            position: absolute;
+            top: 0;
+            left: 0;
+            }
+        /* .videoplayer{
             line-height: 1.5;
             display: inline-block;
-            vertical-align: middle;
-        }
+            vertical-align: middle;            
+        } */
         .icons{
             display: flex;
             justify-content: center;
@@ -113,7 +156,20 @@ const HomePageStyled = styled.header`
             }
         }
     }
-
-
-`
+@media screen and (max-width:1200px){
+    .typography{
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        top: 50%;
+        left: 50%;
+        width: 90%;
+         
+    
+        .intro{
+            font-size: small;
+        }
+     }
+}
+`;
 export default HomePage;
