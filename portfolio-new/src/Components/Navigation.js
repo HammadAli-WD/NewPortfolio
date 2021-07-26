@@ -1,37 +1,37 @@
 import React from 'react'
-import styled from 'styled-components'
-import avatar from '../images/avatar.jpg'
-import { Link } from "react-router-dom";
+import styled from 'styled-components';
+import {NavLink} from 'react-router-dom';
+import avatar from '../images/avatar.jpg';
+
 function Navigation() {
     return (
         <NavigationStyled>
             <div className="avatar">
-                <img src={avatar} alt="" />
+                <img src={avatar} alt=""/>
             </div>
             <ul className="nav-items">
-                <li className="nav-items">
-                    <Link to="/" activeClassName="active-class" exact>Home</Link>
+                <li className="nav-item">
+                    <NavLink to="/" activeClassName="active-class" exact>Home</NavLink>
                 </li>
-                <li className="nav-items">
-                    <Link to="/home" activeClassName="active-class" exact>About</Link>
+                <li className="nav-item">
+                    <NavLink to="/about" activeClassName="active-class" exact>About</NavLink>
                 </li>
-                <li className="nav-items">
-                    <Link to="/home" activeClassName="active-class" exact>Experience</Link>
+                <li className="nav-item">
+                    <NavLink to="/resume" activeClassName="active-class" exact>Resume</NavLink>
                 </li>
-                <li className="nav-items">
-                    <Link to="/home" activeClassName="active-class" exact>Projects</Link>
+                <li className="nav-item">
+                    <NavLink to="/portfolios" activeClassName="active-class" exact>Portfolios</NavLink>
                 </li>
-                <li className="nav-items">
-                    <Link to="/home" activeClassName="active-class" exact>Blogs</Link>
+                <li className="nav-item">
+                    <NavLink to="/blogs" activeClassName="active-class" exact>Blogs</NavLink>
                 </li>
-                <li className="nav-items">
-                    <Link to="/home" activeClassName="active-class" exact>Contact</Link>
+                <li className="nav-item">
+                    <NavLink to="/contact" activeClassName="active-class" exact>Contact</NavLink>
                 </li>
             </ul>
-            <footer className="footer">
+             <footer className="footer">
                 <a href="" target="_blank" rel="noreferrer"> Copyright &copy; {new Date().getFullYear()} {<br />} Hammad Ali </a>
             </footer>
-
         </NavigationStyled>
     )
 }
@@ -42,6 +42,8 @@ const NavigationStyled = styled.nav`
     flex-direction: column;
     align-items: center;
     height: 100%;
+    width: 100%;
+    border-right: 1px solid var(--border-color);
     .avatar{
         width: 100%;
         border-bottom: 1px solid var(--border-color);
@@ -53,6 +55,7 @@ const NavigationStyled = styled.nav`
             border: 8px solid var(--border-color);
         }
     }
+
     .nav-items{
         width: 100%;
         text-align: center;
@@ -83,17 +86,19 @@ const NavigationStyled = styled.nav`
                     width: 0;
                     height: 50%;
                     background-color: var( --primary-color);
-                    transition: All 0.5s cubic-bezier(1,-0.3,.22,.94) ;
-                    opacity: 0.25;
+                    transition: All 0.4s cubic-bezier(1,-0.2,.25,.95) ;
+                    opacity: 0.21;
                     z-index: -1;
                 }
             }
+
             a:hover::before{
                 width: 100%;
                 height: 100%;
             }
         }
     }
+
     footer{
         border-top: 1px solid var(--border-color);
         width: 100%;
@@ -104,6 +109,5 @@ const NavigationStyled = styled.nav`
             text-align: center;
         }
     }
-`
-
-export default Navigation
+`;
+export default Navigation;
