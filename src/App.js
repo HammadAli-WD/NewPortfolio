@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import styled from 'styled-components'
 import Sidebar from './Components/Sidebar';
 import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
 import { Route, Switch as Switching } from "react-router";
 import { IconButton } from "@material-ui/core";
 import MenuIcon from '@material-ui/icons/Menu';
@@ -58,7 +59,10 @@ function App() {
         <Switching>
             <Route path="/" exact>
               <HomePage />
-            </Route>
+          </Route>
+          <Route path="/about" exact>
+            <AboutPage />
+          </Route>
           </Switching>
       </MainContentStyled>
     </div>
