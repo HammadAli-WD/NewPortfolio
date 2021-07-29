@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import styled from 'styled-components'
-import Sidebar from './Components/Sidebar';
+import Sidebar from './Components/home/Sidebar';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import { Route, Switch as Switching } from "react-router";
@@ -8,6 +8,9 @@ import { IconButton } from "@material-ui/core";
 import MenuIcon from '@material-ui/icons/Menu';
 import Switch from '@material-ui/core/Switch';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
+import ProjectsPage from "./pages/ProjectsPage";
+import ExperiencePage from "./pages/ExperiencePage";
+import AcademicPage from './pages/AcademicPage'
 
 function App() {
   const [theme, setTheme] = useState('dark-theme');
@@ -62,6 +65,15 @@ function App() {
           </Route>
           <Route path="/about" exact>
             <AboutPage />
+          </Route>
+          <Route path="/projects" exact>
+            <ProjectsPage />
+          </Route>
+          <Route path="/experience" exact>
+            <ExperiencePage />
+          </Route>
+          <Route path="/qualifications" exact>
+            <AcademicPage />
           </Route>
           </Switching>
       </MainContentStyled>
