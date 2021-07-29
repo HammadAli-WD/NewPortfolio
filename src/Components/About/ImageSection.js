@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import resume from '../../images/AboutOwn.jpg';
 import PrimaryButton from './PrimaryButton';
-
+import CV from "../../data/HammadAli_CV.pdf";
 function ImageSection() {
     return (
         <ImageSectionStyled>
@@ -12,30 +12,21 @@ function ImageSection() {
             <div className="right-content">
                 <h4>I am <span>Lorem Ipsum</span></h4>
                 <p className="paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, natus quas vero enim 
-                    praesentium delectus est id fugiat ab libero adipisci recusandae at maxime veritatis! 
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, nesciunt.
+                   The determined, efficient and effective teamwork for the completion of an international Mega Housing Project was the start of my career.
+                  The application's of Information Technology in every field, grabbed my attention and therefore,
+                  I started a master's in the Forest Information Technology program. During the study, the programming subjects sparked me to dive deeper into programming through a
+                  Full-Stack Developer. At the same moment, I found Strive School as the best option to turn my dreams into reality.
+                  The practical training of the school in the field of Node.js, Express, MongoDB on the backend and React, Redux,
+                  Typescript with HTML, CSS, Bootstrap, JavaScript on the frontend, with pair programming and code review under agile environment,
+                  make it possible for me to work as a Full-Stack Developer. Currently I am working as Intern for full stack developement of project in Road Ads GmBH.
+                  Throughout my education and career, I am succeeded in boosting interpersonal skills by adaptiveness to multi-cultural environments with different
+                  fields of career and studies, collaboration through teamwork, and problem-solving with analytical thoughts.
+                  Now, its time to further enhance my skills as Full-Stack Developer to turn the little sparkle I felt before, into a fire.
                     
                 </p>
-                <div className="about-info">
-                    <div className="info-title">
-                        <p>Full Name</p>
-                        <p>Age</p>
-                        <p>Nationality </p>
-                        <p>Languages </p>
-                        <p>Location</p>
-                        <p>Service</p>
-                    </div>
-                    <div className="info">
-                        <p>: Lorem Ipsum</p>
-                        <p>: 111</p>
-                        <p>: 111 </p>
-                        <p>: English </p>
-                        <p>: 111</p>
-                        <p>: 111</p>
-                    </div>
-                </div>
-                <PrimaryButton title={'Download Cv'} />
+                <a href={CV} download="HammadAli_CV">
+                    <PrimaryButton title={'Download Cv'} />
+                    </a>
             </div>
         </ImageSectionStyled>
     )
