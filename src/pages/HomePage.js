@@ -3,7 +3,7 @@ import styled  from "styled-components";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GithubIcon from '@material-ui/icons/GitHub';
 import YoutubeIcon from '@material-ui/icons/YouTube';
-import Particle from '../Components/Particle';
+import Particle from '../Components/home/Particle';
 import ReactPlayer from 'react-player'
 import Typical from 'react-typical'
 const steps = [
@@ -44,10 +44,10 @@ function HomePage() {
             
                 
                 <div className="icons">
-                    <a href="https://codepen.io/pen/" className="icon i-facebook">
+                    <a href="https://www.linkedin.com/in/hammad-ali-04517b115/" target="_blank" rel="noopener noreferrer" className="icon i-facebook">
                         <LinkedInIcon />
                     </a>
-                    <a href="https://codepen.io/pen/" className="icon i-github">
+                    <a href="https://github.com/HammadAli-WD" target="_blank" rel="noopener noreferrer" className="icon i-github">
                         <GithubIcon />
                     </a>
                     <a href="https://codepen.io/pen/" className="icon i-youtube">
