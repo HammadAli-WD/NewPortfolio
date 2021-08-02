@@ -43,8 +43,8 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.1rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9rem;
     
 }
 body{
