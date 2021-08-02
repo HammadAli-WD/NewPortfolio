@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components';
-import ImageSection from '../Components/About/ImageSection';
-import Title from '../Components/About/Title';
+import ImageSection from '../Components/about/ImageSection';
+import Title from '../Components/Title';
 import {MainLayout} from '../styles/Layouts';
-import SkillsSection from '../Components/About/SkillsSection';
+import SkillsSection from '../Components/about/SkillsSection';
 
 function AboutPage() {
     return (
