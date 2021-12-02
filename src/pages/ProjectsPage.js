@@ -18,7 +18,7 @@ function ProjectsPage() {
             return;
         }
 
-        const filteredData = portfolios.filter(item => item.category === button);
+        const filteredData = portfolios.filter(item => item.category === button || item.category2 === button || item.category3 === button || item.category4 === button);
         setMenuItems(filteredData);
     }
     return (
