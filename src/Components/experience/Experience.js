@@ -17,22 +17,26 @@ function Experience() {
                 </div>
                 <div className="Content">
                     <Items 
-                        year={'2015 - 2020'} 
-                        title={'Computer Science Teacher'}
-                        subTitle={'Sussex University'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        year={'July 2021 - Present'} 
+                        title={'FULL STACK DEVELOPER (MASTER-THESIS)'}
+                        subTitle={'HNEE University Eberswalde, Germany'}
+                        text={`University is collecting micro climatic data from various locations but was 
+                                not accessible by the students and other research staff. Working on the 
+                                project from server to deployment using Node.js, typescript, react, docker`} 
                     />
                     <Items 
-                        year={'2015 - Present'} 
-                        title={'Full Stack Developer'}
-                        subTitle={'Microsoft Studios'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        year={'Feb 2021 - July 2021'} 
+                        title={'FULL STACK MERN INTERN'}
+                        subTitle={'RoadAds'}
+                        text={`Started the project from initial phase, room booking website using MERN 
+                                stack working in remote desktop connection using Linux.`} 
                     />
                     <Items 
-                        year={'2010 - 2017'} 
-                        title={'User Interface Designer'}
-                        subTitle={'Google Inc'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        year={'Dec 2020 - April 2021'} 
+                        title={'RESEARCH ASSISTANT'}
+                        subTitle={'Thünen Institute'}
+                        text={`Hydrological Modelling of the data using R-Script for statistical and other 
+                                analysis.`} 
                     />
                 </div>                
             </InnerLayout>
