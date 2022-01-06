@@ -32,8 +32,8 @@ function Experience() {
                     />
                     <Items 
                         year={'Nov 2018 - present'} 
-                        title={'A - Levels'}
-                        subTitle={'Church Hill High'}
+                        title={'Master in Forest Information Technology'}
+                        subTitle={'EBERSWALDE UNIVERSITY OF SUSTAINABLE DEVELOPMENT, GERMANY'}
                         text={`Application of the Information Technologies in GIS
                           and Forestry, by following coursework. Data
                           analysis and Management, Programming,
@@ -41,13 +41,7 @@ function Experience() {
                           Cartography, Statistics, Remote Sensing, Project
                           Planning and Management, Map editing, Spatial
                           Analysis, Collection and Analysis of LiDAR Data.`} 
-                    />
-                    {/* <Items 
-                        year={'2015 - 2017'} 
-                        title={'High School Graduation'}
-                        subTitle={'ABC School'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
-                    /> */}
+                    />                   
                 </div>
             </InnerLayout>
         </ResumeStyles>    
