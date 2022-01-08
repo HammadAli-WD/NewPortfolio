@@ -4,11 +4,10 @@ import styled from 'styled-components';
 function Items({year, title, subTitle, text}) {
     return (
         <ItemsStyled>
-            <div className="left-content">
-                <p>{year}</p>
-            </div>
-            <div className="right-content">
+            
+            <div className="right-content">                
                 <h5>{title}</h5>
+                <p>{year}</p>
                 <h6>{subTitle}</h6>
                 <p>{text}</p>
             </div>
@@ -17,7 +16,7 @@ function Items({year, title, subTitle, text}) {
 }
 
 const ItemsStyled = styled.div`
-    display: flex;
+    //display: flex;
     @media screen and (max-width: 421px){
         p, h5, h6{
             font-size: 80%;
@@ -27,8 +26,8 @@ const ItemsStyled = styled.div`
         padding-bottom: 3rem;
     }
     .left-content{
-        width: 50%;
-        padding-left: 20px;
+        //width: 80%;
+        padding-left: 10px;
         position: relative;
         &::before{
             content: "";
@@ -36,7 +35,7 @@ const ItemsStyled = styled.div`
             left: -10px;
             top: 5px;
             height: 15px;
-            width: 15px;
+            width: 10px;
             border-radius: 50%;
             border: 2px solid var(--border-color);
             background-color: var(--background-dark-color);
