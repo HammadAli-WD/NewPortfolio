@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import resume from '../../images/AboutOwn.jpg';
+import resume from '../../images/Own.jpeg';
 import PrimaryButton from './PrimaryButton';
 import CV from "../../data/HammadAli_CV.pdf";
 function ImageSection() {
@@ -10,7 +10,7 @@ function ImageSection() {
                 <img src={resume} alt=""/>
             </div>
             <div className="right-content">
-                <h4>I am <span>Lorem Ipsum</span></h4>
+                <h4>I am <span>Hammad Ali</span></h4>
                 <p className="paragraph">
                    The determined, efficient and effective teamwork for the completion of an international Mega Housing Project was the start of my career.
                   The application's of Information Technology in every field, grabbed my attention and therefore,
@@ -18,10 +18,10 @@ function ImageSection() {
                   Full-Stack Developer. At the same moment, I found Strive School as the best option to turn my dreams into reality.
                   The practical training of the school in the field of Node.js, Express, MongoDB on the backend and React, Redux,
                   Typescript with HTML, CSS, Bootstrap, JavaScript on the frontend, with pair programming and code review under agile environment,
-                  make it possible for me to work as a Full-Stack Developer. Currently I am working as Intern for full stack developement of project in Road Ads GmBH.
+                    make it possible for me to work as a Full-Stack Developer. In addition, during my Internship as Full Stack Developer in Road Ads GmBH boosted my skills with having greater responsibilites.
+                    Currently, I am working as full stack developer on Weather Station Data website of HNEE, University with usage of Node js, typescript, PostgreSQL, react and other libraries.
                   Throughout my education and career, I am succeeded in boosting interpersonal skills by adaptiveness to multi-cultural environments with different
-                  fields of career and studies, collaboration through teamwork, and problem-solving with analytical thoughts.
-                  Now, its time to further enhance my skills as Full-Stack Developer to turn the little sparkle I felt before, into a fire.
+                  fields of career and studies, collaboration through teamwork, and problem-solving with analytical thoughts. I am always happy to learn more and handle problems through utilization of my skills and knowledge.
                     
                 </p>
                 <a href={CV} download="HammadAli_CV">
