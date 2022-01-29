@@ -19,17 +19,7 @@ function Experience() {
                 <div className="small-title u-small-title-margin">
                     <SmallTitle icon={school} title={'Educational Qualifications'} />
                 </div>
-                <div className="Content">
-                    <Items 
-                        year={'Apr 2020- Nov 2020'} 
-                        title={'Software Development'}
-                        subTitle={'Strive School'}
-                        text={`An online remote program, taught by highly
-                            professional teachers, covering both theory and
-                            professional training of the following modules.
-                            HTML, CSS, Bootstrap, JS+ES6, MongoDB,
-                            PostgreSQL, Express, React.js, Redux, ReduxThunk, TypeScript, Node.js, Cloud Technologies`} 
-                    />
+                <div className="Content">                    
                     <Items 
                         year={'Nov 2018 - present'} 
                         title={'Master in Forest Information Technology'}
@@ -41,6 +31,7 @@ function Experience() {
                           Cartography, Statistics, Remote Sensing, Project
                           Planning and Management, Map editing, Spatial
                           Analysis, Collection and Analysis of LiDAR Data.`} 
+                        link = {'https://www.hnee.de/de/Studium/Masterstudiengnge/Forest-Information-Technology/Forest-Information-Technology-M.Sc.-E1833.htm'}
                     />                   
                 </div>
             </InnerLayout>

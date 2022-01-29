@@ -105,6 +105,15 @@ const portfolios = [
         link2: 'https://competent-liskov-49a579.netlify.app/',
         title: 'Old-Portfolio',
         text: 'This is my first portfolio in React js, which shows brief introduction about my skills and education.'
+    },    
+    {
+        id: 11,
+        category: 'Python',
+        image: FEexpats,
+        link1: 'https://github.com/HammadAli-WD/DataAnalytics-Exercises',
+        link2: '',
+        title: 'Python-Excercises',
+        text: 'This is my first portfolio in React js, which shows brief introduction about my skills and education.'
     }
 ]
 
