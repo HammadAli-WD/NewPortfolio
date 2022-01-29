@@ -1,14 +1,14 @@
 import React from 'react'
 import styled from 'styled-components';
 
-function Items({year, title, subTitle, text}) {
+function Items({year, title, subTitle, text, link}) {
     return (
         <ItemsStyled>
             
             <div className="right-content">                
                 <h5>{title}</h5>
                 <p>{year}</p>
-                <h6>{subTitle}</h6>
+                <a className="text-dark text-decoration-none" href={link} target="_blank" rel="noopener noreferrer"><h6>{subTitle}</h6></a>
                 <p>{text}</p>
             </div>
         </ItemsStyled>
