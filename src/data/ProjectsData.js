@@ -1,5 +1,13 @@
 import FEexpats from '../images/portImages/FE-Expats.jpg';
 import BEexpats from '../images/portImages/BE-Expats.jpg';
+import ThesisServer from '../images/portImages/HNEE_Server.png';
+import ThesisClient from '../images/portImages/thesis_client.png';
+import TodoList from '../images/portImages/Todo_List.png';
+import typeorm_API from '../images/portImages/typeorm_API.png';
+import BEStudents from '../images/portImages/BE-Student.png';
+import FEStudents from '../images/portImages/Student_Multer.png';
+import OldPortfolio from '../images/portImages/Old-Portfolio.jpg';
+import Python from '../images/portImages/Python.png';
 
 const portfolios = [
     {
@@ -8,7 +16,7 @@ const portfolios = [
         category2: 'PostgreSQL',
         category3: 'Node',
         category4: 'Typescript',
-        image: FEexpats,
+        image: ThesisServer,
         link1: 'https://github.com/FIT-HNEE/Server-WSData',
         link2: '#',
         title: 'Node.js Typescript on thesis topic of Micro Climatic data',
@@ -18,7 +26,7 @@ const portfolios = [
         id: 2,        
         category: 'Typescript',
         category2: 'React',
-        image: FEexpats,
+        image: ThesisClient,
         link1: 'https://github.com/FIT-HNEE/ClientSide-WSData',
         link2: '#',
         title: 'Front-End using Micro Climatic data API',
@@ -29,7 +37,7 @@ const portfolios = [
         category: 'Node',
         category2: 'MERN',
         category4: 'Typescript',
-        image: FEexpats,
+        image: TodoList,
         link1: 'https://github.com/HammadAli-WD/TypescriptToDoList/tree/main/server',
         link2: '#',
         title: 'Node.js Typescript api for to do list',
@@ -40,7 +48,7 @@ const portfolios = [
         category2: 'MERN',
         category: 'React',
         category4: 'Typescript',
-        image: FEexpats,
+        image: TodoList,
         link1: 'https://github.com/HammadAli-WD/TypescriptToDoList/tree/main/client/todolist',
         link2: '#',
         title: 'Front-End using to do list API',
@@ -51,7 +59,7 @@ const portfolios = [
         category2: 'Node',
         category: 'PostgreSQL',
         category4: 'Typescript',
-        image: FEexpats,
+        image: typeorm_API,
         link1: 'https://github.com/HammadAli-WD/Typescript-JS-Project',
         link2: '#',
         title: 'Node.js Typescript api using docker and typeorm',
@@ -81,7 +89,7 @@ const portfolios = [
         id: 8,
         category2: 'Node',
         category: 'MERN',
-        image: FEexpats,
+        image: BEStudents,
         link1: 'https://github.com/HammadAli-WD/StudentsProjects_BE',
         link2: '#',
         title: 'Node.js Express API Student Records App',
@@ -91,7 +99,7 @@ const portfolios = [
         id: 9,
         category3: 'React',
         category: 'MERN',
-        image: FEexpats,
+        image: FEStudents,
         link1: 'https://github.com/HammadAli-WD/StudentsProjects_FE',
         link2: '#',
         title: 'Student Records App',
@@ -100,7 +108,7 @@ const portfolios = [
     {
         id: 10,
         category: 'React',
-        image: FEexpats,
+        image: OldPortfolio,
         link1: 'https://github.com/HammadAli-WD/portfolio.github.io',
         link2: 'https://competent-liskov-49a579.netlify.app/',
         title: 'Old-Portfolio',
@@ -109,7 +117,7 @@ const portfolios = [
     {
         id: 11,
         category: 'Python',
-        image: FEexpats,
+        image: Python,
         link1: 'https://github.com/HammadAli-WD/DataAnalytics-Exercises',
         link2: '',
         title: 'Python-Excercises',
