@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import GitHub from '@material-ui/icons/GitHub';
 import Pinterest from '@material-ui/icons/Pinterest';
+import Image from "react-bootstrap/Image";
 
 function Menu({menuItem}) {
     return (
@@ -11,7 +12,7 @@ function Menu({menuItem}) {
                     return <div className="grid-item" key={item.id}>
                         <div className="portfolio-content">
                             <div className="portfolio-image">
-                                <img src={item.image} alt=""/>
+                                <img style={{height:'auto',width:'100%'}} src={item.image} alt="" />
                                 <ul>
                                     <li>
                                         <a href={item.link1} target="_blank" rel="noopener noreferrer">
