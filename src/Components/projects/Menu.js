@@ -12,7 +12,7 @@ function Menu({menuItem}) {
                     return <div className="grid-item" key={item.id}>
                         <div className="portfolio-content">
                             <div className="portfolio-image">
-                                <img style={{height:'auto',width:'100%'}} src={item.image} alt="" />
+                                <img style={{height:'150px',width:'100%'}} src={item.image} alt="" />
                                 <ul>
                                     <li>
                                         <a href={item.link1} target="_blank" rel="noopener noreferrer">
