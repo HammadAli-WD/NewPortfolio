@@ -156,6 +156,12 @@ export const SkillsData = {
       imgSrc: L_TYPESCRIPT,
       skillName: "TypeScript",
     },
+    {
+      link: "https://www.python.org/",
+      imgAltText: "Python",
+      imgSrc: L_PYTHON,
+      skillName: "Python",
+    },
 
   ],
   databases: [
