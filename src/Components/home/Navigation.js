@@ -24,16 +24,10 @@ function Navigation() {
                 </li>
                 <li className="nav-item">
                     <NavLink to="/qualifications" activeClassName="active-class" exact>Academic</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink to="/blogs" activeClassName="active-class" exact>Blogs</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink to="/contact" activeClassName="active-class" exact>Contact</NavLink>
-                </li>
+                </li>                
             </ul>
              <footer className="footer">
-                <a href="" target="_blank" rel="noreferrer"> Copyright &copy; {new Date().getFullYear()} {<br />} Hammad Ali </a>
+                {new Date().getFullYear()} {<br />} Hammad Ali 
             </footer>
         </NavigationStyled>
     )
