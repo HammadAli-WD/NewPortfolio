@@ -50,7 +50,7 @@ function HomePage() {
                     <a href="https://github.com/HammadAli-WD" target="_blank" rel="noopener noreferrer" className="icon i-github">
                         <GithubIcon />
                     </a>
-                    <a href="https://codepen.io/pen/" className="icon i-youtube">
+                    <a href="https://youtu.be/9bAryK8I2uo" target="_blank" rel="noopener noreferrer" className="icon i-youtube">
                         <YoutubeIcon />
                     </a>
                 </div>
