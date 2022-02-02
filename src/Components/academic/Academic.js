@@ -1,15 +1,15 @@
 import React from 'react';
-import styled from 'styled-components';
+//import styled from 'styled-components';
 import {InnerLayout} from '../../styles/Layouts';
-import Title from '../Title';
+//import Title from '../Title';
 import SmallTitle from '../SmallTitle';
-import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
+//import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import SchoolIcon from '@material-ui/icons/School';
 import Items from '../Items';
 import { ResumeStyles } from '../../styles/ResumeStyles';
 
 function Experience() {
-    const briefcase = <BusinessCenterIcon />
+    //const briefcase = <BusinessCenterIcon />
     const school = <SchoolIcon />
     return (
         <ResumeStyles>
