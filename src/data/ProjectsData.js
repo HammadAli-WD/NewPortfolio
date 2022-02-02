@@ -7,6 +7,8 @@ import typeorm_API from '../images/portImages/typeorm_API.png';
 import BEStudents from '../images/portImages/BE-Student.png';
 import FEStudents from '../images/portImages/Student_Multer.png';
 import OldPortfolio from '../images/portImages/Old-Portfolio.jpg';
+import NewPortfolio from '../images/portImages/NewPortfolio.png';
+
 import Python from '../images/portImages/Python.png';
 
 const portfolios = [
@@ -113,9 +115,18 @@ const portfolios = [
         link2: 'https://competent-liskov-49a579.netlify.app/',
         title: 'Old-Portfolio',
         text: 'This is my first portfolio in React js, which shows brief introduction about my skills and education.'
-    },    
+    },
     {
         id: 11,
+        category: 'React',
+        image: NewPortfolio,
+        link1: 'https://github.com/HammadAli-WD/NewPortfolio',
+        link2: 'https://61f979103e3d88184f4747bd--flamboyant-lalande-fa24cc.netlify.app/',
+        title: 'Old-Portfolio',
+        text: 'This is my first portfolio in React js, which shows brief introduction about my skills and education.'
+    },    
+    {
+        id: 12,
         category: 'Python',
         image: Python,
         link1: 'https://github.com/HammadAli-WD/DataAnalytics-Exercises',
