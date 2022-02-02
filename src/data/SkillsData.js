@@ -6,26 +6,20 @@ import L_REACT from "../images/skills/react.svg";
 import L_REDUX from "../images/skills/redux.svg";
 import L_REACT_ROUTER from "../images/skills/react-router.svg";
 import L_MATERIALUI from "../images/skills/material-ui-1.svg";
-import L_REACT_BOOTSTRAP from "../images/skills/react-bootstrap.svg";
+//import L_REACT_BOOTSTRAP from "../images/skills/react-bootstrap.svg";
 import L_NODE_JS from "../images/skills/nodejs.svg";
 import L_EXPRESS from "../images/skills/express.svg";
 import L_MONGODB from "../images/skills/mongodb.svg";
-import L_FIREBASE from "../images/skills/firebase-seeklogo.com.svg";
-import L_MSSQL from "../images/skills/mssql.svg";
+//import L_FIREBASE from "../images/skills/firebase-seeklogo.com.svg";
+//import L_MSSQL from "../images/skills/mssql.svg";
 import L_GIT from "../images/skills/git-icon.svg";
 import L_HEROKU from "../images/skills/heroku.svg";
-import L_GITHUB_PAGES from "../images/skills/github.svg";
+//import L_GITHUB_PAGES from "../images/skills/github.svg";
 import L_JAVASCRIPT from "../images/skills/javascript.svg";
 import L_TYPESCRIPT from "../images/skills/typescript.svg";
-import L_NETLIFY from "../images/skills/netlify.svg";
+//import L_NETLIFY from "../images/skills/netlify.svg";
 import L_PYTHON from "../images/skills/python.svg";
-import L_NEXT from "../images/skills/next.svg";
-import L_FIGMA from "../images/skills/figma.svg";
-import L_PS from "../images/skills/adobeps.svg";
-import L_AE from "../images/skills/adobeae.svg";
-import L_WP from "../images/skills/wordpress.svg";
-import L_SHOPIFY from "../images/skills/shopify.svg";
-import L_BC from "../images/skills/bigcommerce.svg";
+
 
 
 export const SkillsData = {
