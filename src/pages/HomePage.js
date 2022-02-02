@@ -15,7 +15,7 @@ return (
     <div className='player-wrapper'>
         <ReactPlayer
         className='react-player'
-        url='https://youtu.be/9bAryK8I2uo'
+        url='https://youtu.be/aoV2nP3o2Yk'
         width='100%'
         height='100%'
         controls={true}
