@@ -121,9 +121,9 @@ const portfolios = [
         category: 'React',
         image: NewPortfolio,
         link1: 'https://github.com/HammadAli-WD/NewPortfolio',
-        link2: 'https://61f979103e3d88184f4747bd--flamboyant-lalande-fa24cc.netlify.app/',
-        title: 'Old-Portfolio',
-        text: 'This is my first portfolio in React js, which shows brief introduction about my skills and education.'
+        link2: 'https://hammadali.netlify.app/',
+        title: 'NewPortfolio',
+        text: 'This is my current portfolio in React js, which shows brief introduction about my skills and education.'
     },    
     {
         id: 12,
