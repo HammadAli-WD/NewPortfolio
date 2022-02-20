@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import GitHub from '@material-ui/icons/GitHub';
 //import Pinterest from '@material-ui/icons/Pinterest';
 //import Image from "react-bootstrap/Image";
-import LiveTvIcon from '@mui/icons-material/LiveTv';
+import LiveTvIcon from '@material-ui/icons/LiveTv';
 function Menu({menuItem}) {
     return (
         <MenuItemStyled >
