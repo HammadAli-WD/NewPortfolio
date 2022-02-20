@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import GitHub from '@material-ui/icons/GitHub';
 //import Pinterest from '@material-ui/icons/Pinterest';
 //import Image from "react-bootstrap/Image";
-
+import LiveTvIcon from '@mui/icons-material/LiveTv';
 function Menu({menuItem}) {
     return (
         <MenuItemStyled >
@@ -18,14 +18,20 @@ function Menu({menuItem}) {
                                         <a href={item.link1} target="_blank" rel="noopener noreferrer">
                                             <GitHub />
                                         </a>
-                                    </li>                                    
+                                    </li>
+                                    <li>
+                                        <a href={item.link2} target="_blank" rel="noopener noreferrer">
+                                            <LiveTvIcon />
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                             <h6>{item.title}.</h6>
                             <h6>Github Link:&nbsp;&nbsp;&nbsp;
                                 <a href={item.link1} target="_blank" rel="noopener noreferrer">
                                     <GitHub />                                    
-                                </a></h6>
+                                </a>
+                            </h6>
                             <p>{item.text}</p>                            
                         </div>
                     </div>
